@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_berries"
+        },
+        "title": {
+            "text": "Glowing Berries",
+            "bold": true,
+            "italic": true,
+            "color": "gold"
+        },
+        "description":{
+            "text": "Eating Glow Berrise makes you Glow",
+            "italic": true,
+            "color": "green"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "moltenwolfcub:root",
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}
